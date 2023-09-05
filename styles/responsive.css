@@ -1,0 +1,102 @@
+/* --------------mobile view-----------------  */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+        margin-bottom: 78px;
+        height: auto;
+    }
+
+    .nav-heading {
+        padding-left: 0px;
+        padding-top: 109px;
+        margin-bottom: 62px;
+    }
+
+    .nav-info {
+        flex-direction: column;
+        padding-right: 0px;
+    }
+
+    #follow-us {
+        margin-top: 30px;
+    }
+
+
+    /* banner responsive start from here  */
+    .banner-full {
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+        padding: 0;
+        gap: 24px;
+        position: relative;
+        background-position: bottom;
+        background-size: 100%;
+        margin: 0 20px;
+    }
+
+    .banner-image>img {
+        width: 100%;
+    }
+
+    /* <!-- Online Games Funny Videos section start  --> */
+    .online-games {
+        width: 375px;
+    }
+
+    .card-section {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 48px 30px;
+    }
+
+}
+
+/* -----------------------tab view-------------------- */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .nav-container {
+        flex-direction: column;
+        margin-bottom: 78px;
+        padding: 0;
+        height: auto;
+    }
+
+    .nav-heading {
+        padding-left: 0px;
+        padding-top: 109px;
+        margin-bottom: 62px;
+    }
+
+    .nav-info {
+        padding-right: 0px;
+    }
+
+    /* banner responsive start from here  */
+    .banner-full {
+        position: relative;
+        margin-bottom: 100px;
+    }
+
+    .banner-section {
+        flex-direction: column;
+        padding: 0;
+        gap: 24px;
+        position: relative;
+        background-position: top;
+        background-size: 100%;
+        margin: 0 50px;
+    }
+
+    .banner-image>img {
+        width: 100%;
+    }
+
+    /* <!-- Online Games Funny Videos section start  --> */
+    .card-section {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 48px 30px;
+    }
+}
