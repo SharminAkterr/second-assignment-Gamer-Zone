@@ -52,10 +52,32 @@
         margin: 48px 30px;
     }
 
+    /* <!-- Play Instantly section start --> */
+    .play-instantly {
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+
+    .fixed-image {
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    .move-image {
+        position: absolute;
+        width: 30%;
+        left: 3%;
+    }
+
+    /* <!-- more games section start  --> */
+    .bg-more-games {
+        height: fit-content;
+        padding: 50px 0;
+    }
 }
 
 /* -----------------------tab view-------------------- */
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 992px) {
 
     .nav-container {
         flex-direction: column;
@@ -94,9 +116,32 @@
         width: 100%;
     }
 
+    /* <!-- Play Instantly section start --> */
+    .play-instantly {
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+
+    .fixed-image {
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    .move-image {
+        position: absolute;
+        width: 30%;
+        left: 3%;
+    }
+
     /* <!-- Online Games Funny Videos section start  --> */
     .card-section {
         grid-template-columns: repeat(2, 1fr);
         margin: 48px 30px;
+    }
+
+    /* <!-- more games section start  --> */
+    .bg-more-games {
+        height: fit-content;
+        padding: 50px 0;
     }
 }

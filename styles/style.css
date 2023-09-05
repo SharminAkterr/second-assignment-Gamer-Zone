@@ -186,6 +186,7 @@
     display: flex;
     align-items: center;
     max-width: 1440px;
+    margin-bottom: 140px;
 }
 
 .Play-text {
@@ -209,4 +210,65 @@
     position: absolute;
     right: 470px;
     bottom: -70px;
+    ;
+}
+
+/* <!-- more games section start  --> */
+.bg-more-games {
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 27px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.more-game div a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 20px 24px;
+}
+
+.games img {
+    width: 60px;
+    height: 60px;
+}
+
+.games h4 {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* <!-- footer start from here  --> */
+.footer-bg {
+    background: #0B0223;
+    height: 636px;
+}
+
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-heading>img,
+h2 {
+    margin: 0;
+
+}
+.footer-heading h2{
+    color: white;
 }
