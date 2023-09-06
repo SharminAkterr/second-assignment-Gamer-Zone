@@ -3,7 +3,8 @@
     .nav-container {
         flex-direction: column;
         height: auto;
-        padding-top: 103px;
+        padding: 0;
+        margin-top: 103px;
         margin-bottom: 78px;
     }
 
@@ -16,50 +17,50 @@
     }
 
     /* banner responsive start from here  */
-    .banner-full {
-        position: relative;
-        margin-bottom: 80px;
-    }
-
     .banner-section {
         flex-direction: column-reverse;
         padding: 0;
         gap: 24px;
         position: relative;
         background-position: bottom;
-        background-size: 100%;
-        margin: 0 20px;
-    }
-
-    .banner-image>img {
-        width: 100%;
+        background-size: 95% 421px;
     }
 
     /* <!-- Online Games Funny Videos section start  --> */
     .online-games {
-        width: 375px;
+        width: fit-content;
     }
 
     .card-section {
         grid-template-columns: repeat(1, 1fr);
-        margin: 48px 30px;
+        border: 2px solid yellowgreen;
+    }
+
+    .card p {
+        padding: 0 5%;
+    }
+
+    .card img {
+        width: 80%;
     }
 
     /* <!-- Play Instantly section start --> */
     .play-instantly {
         flex-direction: column;
-        margin-bottom: 130px;
+        margin: 0 auto 130px;
     }
 
     .fixed-image {
         width: 80%;
-        padding-left: 10%;
+        padding-left: 20%;
+        padding-top: 20px;
     }
 
     .move-image {
         position: absolute;
-        width: 30%;
-        left: 3%;
+        width: 24%;
+        left: 10%;
+        top: 74%;
     }
 
     /* <!-- more games section start  --> */
@@ -67,6 +68,23 @@
         height: fit-content;
         padding: 50px 0;
     }
+
+    .more-game {
+        padding: 0 35px;
+    }
+
+    /* <!-- footer start from here  --> */
+    .footer-container {
+        height: 879px;
+    }
+
+    .our-icon,
+    .our-info,
+    .our-terms-condition {
+        flex-wrap: wrap;
+        gap: 37px;
+    }
+
 }
 
 /* -----------------------tab view-------------------- */
@@ -75,8 +93,9 @@
     .nav-container {
         flex-direction: column;
         height: auto;
-        padding-top: 103px;
-        padding: 78px;
+        padding: 0;
+        margin-top: 103px;
+        margin-bottom: 78px;
     }
 
     .nav-heading {
@@ -91,7 +110,6 @@
 
     /* banner responsive start from here  */
     .banner-full {
-        position: relative;
         margin-bottom: 100px;
     }
 
@@ -101,13 +119,21 @@
         gap: 24px;
         position: relative;
         background-position: top;
-        background-size: 100%;
+        background-size: 85% 422px;
         margin: 0 50px;
     }
 
-    .banner-image>img {
-        width: 100%;
+    /* <!-- Online Games Funny Videos section start  --> */
+
+    .online-games {
+        width: fit-content;
     }
+
+    .card-section {
+        border: 2px solid blueviolet;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 
     /* <!-- Play Instantly section start --> */
     .play-instantly {
@@ -117,24 +143,36 @@
 
     .fixed-image {
         width: 80%;
-        padding-left: 10%;
+        padding-left: 20%;
+        padding-top: 20px;
     }
 
     .move-image {
         position: absolute;
-        width: 30%;
-        left: 3%;
-    }
-
-    /* <!-- Online Games Funny Videos section start  --> */
-    .card-section {
-        grid-template-columns: repeat(2, 1fr);
-        margin: 48px 30px;
+        width: 24%;
+        left: 10%;
+        top: 74%;
     }
 
     /* <!-- more games section start  --> */
     .bg-more-games {
         height: fit-content;
         padding: 50px 0;
+    }
+
+    .more-game {
+        padding: 0 35px;
+    }
+
+    /* <!-- footer start from here  --> */
+    .footer-container {
+        height: 879px;
+    }
+
+    .our-icon,
+    .our-info,
+    .our-terms-condition {
+        flex-wrap: wrap;
+        gap: 37px;
     }
 }

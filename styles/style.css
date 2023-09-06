@@ -97,8 +97,6 @@ body {
     margin-bottom: 120px
 }
 
-.banner-text {}
-
 .title-banner {
     color: #0B0223;
     font-size: 3rem;
@@ -157,24 +155,23 @@ body {
     background-color: #4EC5F7;
 }
 
-.banner-image {}
-
-.banner-image>img {
+.banner-image img {
     padding-top: 19px;
+    width: 100%;
 }
 
 /* <!-- Online Games Funny Videos section start  --> */
 .online-games {
+    border: 2px solid orange;
     text-align: center;
+    max-width: 1440px;
+    margin: 48px auto 120px;
 }
 
 .card-section {
-    max-width: 1440px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-    margin-top: 48px;
-    margin-bottom: 120px;
 }
 
 .card p {
@@ -184,13 +181,14 @@ body {
 /* <!-- Play Instantly section start --> */
 .play-instantly {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     max-width: 1440px;
-    margin-bottom: 140px;
+    margin: 0 auto 140px;
 }
 
 .Play-text {
-    width: 353px;
+    width: 376px;
 }
 
 .Play-text h3 {
@@ -210,7 +208,6 @@ body {
     position: absolute;
     right: 470px;
     bottom: -70px;
-    ;
 }
 
 /* <!-- more games section start  --> */
@@ -224,11 +221,10 @@ body {
 
 .more-game {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    row-gap: 27px;
-    column-gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px;
+    padding: 0 210px;
 }
 
 .more-game div a {
@@ -240,6 +236,14 @@ body {
     border-radius: 50px;
     background: #FFF;
     padding: 20px 24px;
+}
+
+.more-game div:hover a {
+    border: 1.5px solid #FF42A5;
+}
+
+.more-game div:hover h4 {
+    color: #FF42A5;
 }
 
 .games img {
@@ -254,20 +258,64 @@ body {
 }
 
 /* <!-- footer start from here  --> */
-.footer-bg {
+.footer-container {
     background: #0B0223;
     height: 636px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-heading {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 68px;
 }
-
-.footer-heading>img,
-h2 {}
 
 .footer-heading h2 {
     color: white;
 }
+
+.our-info a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.our-icon,
+.our-info,
+.our-terms-condition {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.our-icon a>.fa-brands {
+    color: #FFF;
+    font-size: 40px;
+    margin: 66px 0;
+}
+
+.our-terms-condition a,
+.footer-container>p {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-container>p {
+    text-align: center;
+    margin-top: 28px;
+}
+
+/* header,
+.footer-container,
+.play-instantly,
+.bg-more-games {
+    display: none;
+} */
