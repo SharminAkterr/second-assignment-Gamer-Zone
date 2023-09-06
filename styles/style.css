@@ -186,12 +186,12 @@ body {
     text-decoration: none;
 }
 
-.play-button-span p {
+.play-button-span>p {
     margin-top: 10px;
     font-size: 24px;
 }
 
-.fa-circle-play {
+.play-button-span>.fa-circle-play {
     color: white;
     font-size: 50px;
 }
