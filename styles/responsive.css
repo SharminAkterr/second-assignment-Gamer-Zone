@@ -3,9 +3,7 @@
     .nav-container {
         flex-direction: column;
         height: auto;
-        padding: 0;
-        margin-top: 103px;
-        margin-bottom: 78px;
+        padding: 103px 0 78px;
     }
 
     .nav-heading {
