@@ -2,25 +2,18 @@
 @media screen and (max-width:576px) {
     .nav-container {
         flex-direction: column;
-        margin-bottom: 78px;
         height: auto;
+        padding-top: 103px;
+        margin-bottom: 78px;
     }
 
     .nav-heading {
-        padding-left: 0px;
-        padding-top: 109px;
         margin-bottom: 62px;
     }
 
     .nav-info {
         flex-direction: column;
-        padding-right: 0px;
     }
-
-    #follow-us {
-        margin-top: 30px;
-    }
-
 
     /* banner responsive start from here  */
     .banner-full {
@@ -81,19 +74,19 @@
 
     .nav-container {
         flex-direction: column;
-        margin-bottom: 78px;
-        padding: 0;
         height: auto;
+        padding-top: 103px;
+        padding: 78px;
     }
 
     .nav-heading {
-        padding-left: 0px;
-        padding-top: 109px;
         margin-bottom: 62px;
     }
 
     .nav-info {
-        padding-right: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     /* banner responsive start from here  */
