@@ -33,7 +33,6 @@
 
     .card-section {
         grid-template-columns: repeat(1, 1fr);
-        border: 2px solid yellowgreen;
     }
 
     .card p {
@@ -130,7 +129,6 @@
     }
 
     .card-section {
-        border: 2px solid blueviolet;
         grid-template-columns: repeat(1, 1fr);
     }
 
